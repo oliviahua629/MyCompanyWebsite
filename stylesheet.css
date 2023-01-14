@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Audiowide', cursive;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+li:hover{
+    background-color: aquamarine;
+}
+
+.navlinks{
+    background-color: darkolivegreen;
+    color: white;
+    text-align: right;
+    font-size: 1.2rem;
+}
+
+.imagebanner{
+     background-image: url("images/imagebanner.pn.jpg");
+     padding: 50px 0;
+     background-size: contain;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.introduction{
+    text-align: center;
+    color: gray;
+    font-size: 1.5 rem;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.ourgames{
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+    }
+    li {
+       text-align: right;
+       display: inline-block;
+       border-bottom: 0px;
+       border-left: 1px solid black;
+    }
+
+    .game{
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+
+    }
+}
